@@ -1,0 +1,127 @@
+@font-face {
+    font-family: SoundCloud;
+    src:url(../fonts/Interstate-Regular.ttf);
+}
+
+@font-face {
+    font-family: Go;
+    src:url(../fonts/againts.otf);
+}
+
+*{
+    font-family: SoundCloud, sans-serif;
+}
+
+body{
+    background-color:#DED1C9;
+}
+
+.main{
+    background-image:url("../img/mainpic.jpg");
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.headline{
+    color:white;
+    margin: 40vh 0vh 30vh 0vh;
+}
+
+.whiteLogo{
+    width:60px;
+    display:inline;
+}
+
+#go{
+    margin-top:-12vh;
+    font-family:Go;
+    font-size:30vh;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0);
+    background:linear-gradient(to top right,#FF5F45,#000499);
+    -webkit-background-clip: text;
+    
+}
+
+.scText{
+    position:relative;
+    left:-3.5vh;
+}
+
+.readMore{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid white;
+    padding:15px;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.readMore a{
+    color:white;
+    font-size:175%;
+}
+
+.readMore a:hover, .readMore:hover, .readMore a:focus{
+    text-decoration: none;
+    opacity:0.5;
+}
+
+.textLeft{
+    background-color:mintcream;
+    margin:7vh;
+    font-size:150%;
+    padding:10vh;
+}
+
+#go2{
+    font-family:Go;
+    font-size:25vh;
+    font-weight: 500;
+    color:white;
+}
+.explore{
+    color: rgba(0, 0, 0, 0);
+    background:linear-gradient(to top right,#FF5F45,#000499);
+    -webkit-background-clip: text;
+    font-size:400%;
+    margin-top:-6%;
+}
+
+.logIn{
+    font-size:120%;
+    margin:10px;
+    float:right;
+    border:1px solid gray;
+    padding:15px;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+/*--new since Dan---*/
+
+.logIn:hover{
+    opacity:0.5;
+}
+
+#map{
+    height:800px;
+}
+
+#description{
+    padding-top:15%;
+    padding-bottom:15%;
+}
+
+#inPlus{
+    height:1000px;
+}
+
+#locked{
+    color:red;
+    cursor:pointer;
+}
+
+#imgLocked{
+    max-width:30px;
+}
